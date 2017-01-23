@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm gstVersion="22800" name="ManagedForm" uid="{e9bba78b-1a32-4593-afd4-328544188af8}">
+  <AGSettings/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{7e127ae4-6427-47ca-945d-b9ee5866e4d2}" where="">
+    <RecordField colName="" fieldIdRef="1" name="txtnombre" sqlTabName="" sqlType="VARCHAR" table_alias_name="" uid="{ea560f8e-5faa-459a-9e38-810acdbd538a}"/>
+    <RecordField colName="" fieldIdRef="2" name="txt_edad" sqlTabName="" sqlType="INTEGER" table_alias_name="" uid="{46667f77-6526-4dda-b1da-cbc252b2d777}"/>
+    <RecordField colName="" fieldIdRef="5" name="dt_fecha" sqlTabName="" sqlType="DATE" table_alias_name="" uid="{4ebe8f1e-da1b-4dc7-ac27-06fd6c419e00}"/>
+    <RecordField colName="" fieldIdRef="3" name="Sexo" sqlTabName="" sqlType="BOOLEAN" table_alias_name="" uid="{d87e4c05-b284-469d-81dc-038f3b81b2b1}"/>
+  </Record>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Record1" order="" uid="{28988e7d-2566-4bd3-84b2-f8bc48096545}" where="">
+    <RecordField colName="" fieldIdRef="4" name="Edit1" sqlTabName="" sqlType="VARCHAR" table_alias_name="" uid="{44ab71d0-c656-4c29-af4e-209da391f0f3}"/>
+    <RecordField colName="" fieldIdRef="7" name="Edit3" sqlTabName="" sqlType="DATE" table_alias_name="" uid="{27f00a0d-9acc-4c5f-8820-0e8f51fb5605}"/>
+    <RecordField colName="" fieldIdRef="6" name="Edit2" sqlTabName="" sqlType="INTEGER" table_alias_name="" uid="{25132f73-3656-497f-8e5a-c18e843ef9b6}"/>
+    <RecordField colName="" fieldIdRef="8" name="Edit4" sqlTabName="" sqlType="INTEGER" table_alias_name="" uid="{78af5f36-50ef-4d54-91ce-24420195b334}"/>
+  </Record>
+  <Form gridHeight="25" gridWidth="80" name="Form" text="Form">
+    <Grid gridHeight="18" gridWidth="56" name="Grid1" posX="1" posY="0">
+      <Label gridHeight="1" gridWidth="12" name="Label1" posX="1" posY="1" text="Nombre:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="1" gridHeight="1" gridWidth="37" name="txtnombre" posX="14" posY="1" rowCount="" sqlTabName="" sqlType="VARCHAR" stepX="" stepY="" tabIndex="1" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="12" name="Label2" posX="1" posY="3" text="Edad:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="2" gridHeight="1" gridWidth="10" name="txt_edad" posX="14" posY="3" rowCount="" sqlTabName="" sqlType="INTEGER" stepX="" stepY="" tabIndex="2" table_alias_name="" title="Edit2" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="15" name="Label4" posX="25" posY="3" text="Fecha Nacimiento:"/>
+      <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="5" gridHeight="1" gridWidth="14" name="dt_fecha" posX="41" posY="3" rowCount="" sqlTabName="" sqlType="DATE" stepX="" stepY="" tabIndex="3" table_alias_name="" title="DateEdit1" widget="DateEdit"/>
+      <Label gridHeight="1" gridWidth="12" name="Label3" posX="1" posY="5" text="Sexo:"/>
+      <RadioGroup aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="3" gridHeight="3" gridWidth="27" items="Masculino, Femenino" name="Sexo" posX="14" posY="5" rowCount="" sqlTabName="" sqlType="BOOLEAN" stepX="" stepY="" tabIndex="4" table_alias_name="" title="RadioGroup1" widget="RadioGroup">
+        <Item lstrtext="true" name="1" text="Masculino"/>
+        <Item lstrtext="true" name="0" text="Femenino"/>
+      </RadioGroup>
+      <Table gridHeight="6" gridWidth="45" name="Table1" posX="3" posY="9" totalRows="5">
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="4" gridHeight="1" gridWidth="8" name="Edit1" posX="0" posY="0" rowCount="" sqlTabName="" sqlType="VARCHAR" stepX="" stepY="" tabIndex="5" table_alias_name="" title="Nombre" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="7" gridHeight="1" gridWidth="15" name="Edit3" posX="8" posY="0" rowCount="" sqlTabName="" sqlType="DATE" stepX="" stepY="" tabIndex="7" table_alias_name="" title="Fecha Nacimiento " widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="6" gridHeight="1" gridWidth="8" name="Edit2" posX="23" posY="0" rowCount="" sqlTabName="" sqlType="INTEGER" stepX="" stepY="" tabIndex="6" table_alias_name="" title="Edad" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="8" gridHeight="1" gridWidth="8" name="Edit4" posX="31" posY="0" rowCount="" sqlTabName="" sqlType="INTEGER" stepX="" stepY="" tabIndex="8" table_alias_name="" title="Sexo" widget="Edit"/>
+      </Table>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA3AGUAMQAyADcAYQBlADQALQA2ADQAMgA3AC0ANAA3AGMAYQAtADkANAA1AGQALQBiADkAZQBlADUAOAA2ADYAZQA0AGQAMgB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEwAewAyADUAMQAzADIAZgA3ADMALQAzADYANQA2AC0ANAA5ADcAZgAtADgAZQA1AGEALQBjADEAOABlADgANAAzAGUAZgA5AGIANgB9QCQAAAAAAABAVQAAAAAAAAAAAAAAAAAAAQAAAEwAewAyADgAOQA4ADgAZQA3AGQALQAyADUANgA2AC0ANABiAGQAMwAtADgANABiADIALQBmADgAYgBjADQAOAAwADkANgA1ADQANQB9wHcAAAAAAABANQAAAAAAAD9ok3S8an76AQAAAEwAewBlAGEANQA2ADAAZgA4AGUALQA1AGYAYQBhAC0ANAA1ADkAYQAtADkAZQAzADgALQA4ADEAMABhAGMAZABiAGQANQAzADgAYQB9QCQAAAAAAABAQwAAAAAAAAAAAAAAAAAAAQAAAEwAewAyADcAZgAwADAAYQAwAGQALQA5AGEAYwBjAC0ANABjADUAZgAtADgAOAAyADAALQAwAGUAOABmADUAMQBmAGIANQA2ADAANQB9QCQAAAAAAABAToAAAAAAAAAAAAAAAAAAAQAAAEwAewA0ADQAYQBiADcAMQBkADAALQBjADYANQA2AC0ANABjADIAOQAtAGEAZgA0AGUALQAyADAAOQBkAGEAMwA5ADEAZgAwAGYAMwB9QCQAAAAAAABAQwAAAAAAAAAAAAAAAAAAAQAAAEwAewA3ADgAYQBmADUAZgAzADYALQA1ADAAZQBmAC0ANABkADUANAAtADkAMQBjAGUALQAyADQANAAyADAAMQA5ADUAYgAzADMANAB9QCQAAAAAAABAWsAAAAAAAAAAAAAAAAAAAQAAAEwAewA0ADYANgA2ADcAZgA3ADcALQA2ADUAMgA2AC0ANABkAGQAYQAtAGIAMQBkAGEALQBjAGIAYwAyADUAMgBiADIAZAA3ADcANwB9QCQAAAAAAABAToAAAAAAAAAAAAAAAAAAAQAAAEwAewA0AGUAYgBlADgAZgAxAGUALQBkAGEAMQBiAC0ANABkAGMANwAtAGEAYwAyADcALQAwADYAZgBkADYAYwA0ADEAOQBlADAAMAB9QCQAAAAAAABAVQAAAAAAAAAAAAAAAAAAAQAAAEwAewBkADgANwBlADQAYwAwADUALQBiADIAOAA0AC0ANAA2ADkAZAAtADgAMQBkAGMALQAwADMAOABmADMAYgA4ADEAYgAyAGIAMQB9QCQAAAAAAABAWsAAAAAAAD9QYk3S8an8AQ==]]>
+  </DiagramLayout>
+</ManagedForm>

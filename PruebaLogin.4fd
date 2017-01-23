@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm gstVersion="22800" name="ManagedForm" uid="{ace02090-74a4-4086-ada1-5a2cffed14c4}">
+  <AGSettings/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{5372ff63-9624-4a46-bac7-71cdde6a1efa}" where="">
+    <RecordField colName="" fieldIdRef="1" name="txttexto1" sqlTabName="" sqlType="VARCHAR" table_alias_name="" uid="{a3f36a22-e7c4-4303-a965-9b488d2f6339}"/>
+    <RecordField colName="" fieldIdRef="2" name="txtpass" sqlTabName="" sqlType="VARCHAR" table_alias_name="" uid="{9cc1ece1-beb9-45b7-bd2f-2e03290c2e2a}"/>
+  </Record>
+  <Form gridHeight="25" gridWidth="80" name="Form" text="Form">
+    <Grid gridHeight="7" gridWidth="59" name="Grid1" posX="3" posY="1">
+      <Label color="blue" gridHeight="1" gridWidth="25" justify="center" name="Label3" posX="16" posY="1" text="Ingreso al Sistema"/>
+      <Label gridHeight="1" gridWidth="10" name="Label1" posX="17" posY="3" text="Usuario:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="" fieldId="1" gridHeight="1" gridWidth="13" name="txttexto1" posX="28" posY="3" rowCount="" sqlTabName="" sqlType="VARCHAR" stepX="" stepY="" tabIndex="1" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="9" name="Label2" posX="17" posY="5" text="Contrasena:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="" columnCount="" fieldId="2" gridHeight="1" gridWidth="13" hidden="false" invisible="true" name="txtpass" posX="28" posY="5" rowCount="" sqlTabName="" sqlType="VARCHAR" stepX="" stepY="" tabIndex="2" table_alias_name="" title="Edit2" widget="Edit"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA1ADMANwAyAGYAZgA2ADMALQA5ADYAMgA0AC0ANABhADQANgAtAGIAYQBjADcALQA3ADEAYwBkAGQAZQA2AGEAMQBlAGYAYQB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEwAewA5AGMAYwAxAGUAYwBlADEALQBiAGUAYgA5AC0ANAA1AGIANwAtAGIAZAAyAGYALQAyAGUAMAAzADIAOQAwAGMAMgBlADIAYQB9QCQAAAAAAABAToAAAAAAAAAAAAAAAAAAAQAAAEwAewBhADMAZgAzADYAYQAyADIALQBlADcAYwA0AC0ANAAzADAAMwAtAGEAOQA2ADUALQA5AGIANAA4ADgAZAAyAGYANgAzADMAOQB9QCQAAAAAAABAQwAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

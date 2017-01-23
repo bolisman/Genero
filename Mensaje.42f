@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="Mensaje.tmp" build="2.41.02-2081.37" text="Form" width="56" height="18">
+  <LStr text="Form"/>
+  <Grid name="grid1" width="56" height="18">
+    <Label name="label1" width="12" text="Nombre:" posY="1" posX="1" gridWidth="12">
+      <LStr text="Nombre:"/>
+    </Label>
+    <FormField name="formonly.txtnombre" colName="txtnombre" sqlType="VARCHAR" fieldId="0" sqlTabName="formonly" tabIndex="1">
+      <Edit width="37" posY="1" posX="14" gridWidth="37"/>
+    </FormField>
+    <Label name="label2" width="12" text="Edad:" posY="3" posX="1" gridWidth="12">
+      <LStr text="Edad:"/>
+    </Label>
+    <FormField name="formonly.txt_edad" colName="txt_edad" sqlType="INTEGER" fieldId="1" sqlTabName="formonly" tabIndex="2">
+      <Edit width="10" posY="3" posX="14" gridWidth="10"/>
+    </FormField>
+    <Label name="label4" width="15" text="Fecha Nacimiento:" posY="3" posX="25" gridWidth="15">
+      <LStr text="Fecha Nacimiento:"/>
+    </Label>
+    <FormField name="formonly.dt_fecha" colName="dt_fecha" sqlType="DATE" fieldId="2" sqlTabName="formonly" tabIndex="3">
+      <DateEdit width="12" posY="3" posX="41" gridWidth="14"/>
+    </FormField>
+    <Label name="label3" width="12" text="Sexo:" posY="5" posX="1" gridWidth="12">
+      <LStr text="Sexo:"/>
+    </Label>
+    <FormField name="formonly.sexo" colName="sexo" sqlType="BOOLEAN" fieldId="3" sqlTabName="formonly" tabIndex="4">
+      <RadioGroup width="27" posY="5" posX="14" gridWidth="27" gridHeight="3">
+        <Item name="1" text="Masculino">
+          <LStr text="Masculino"/>
+        </Item>
+        <Item name="0" text="Femenino">
+          <LStr text="Femenino"/>
+        </Item>
+      </RadioGroup>
+    </FormField>
+    <Table pageSize="5" name="table1" width="45" posY="9" posX="3" gridWidth="45" gridHeight="6" tabName="record1">
+      <TableColumn name="formonly.edit1" colName="edit1" sqlType="VARCHAR" fieldId="4" sqlTabName="formonly" tabIndex="5" text="Nombre">
+        <Edit width="8"/>
+        <LStr text="Nombre"/>
+      </TableColumn>
+      <TableColumn name="formonly.edit3" colName="edit3" sqlType="DATE" fieldId="5" sqlTabName="formonly" tabIndex="7" text="Fecha Nacimiento ">
+        <Edit width="15"/>
+        <LStr text="Fecha Nacimiento "/>
+      </TableColumn>
+      <TableColumn name="formonly.edit2" colName="edit2" sqlType="INTEGER" fieldId="6" sqlTabName="formonly" tabIndex="6" text="Edad" numAlign="1">
+        <Edit width="8"/>
+        <LStr text="Edad"/>
+      </TableColumn>
+      <TableColumn name="formonly.edit4" colName="edit4" sqlType="INTEGER" fieldId="7" sqlTabName="formonly" tabIndex="8" text="Sexo" numAlign="1">
+        <Edit width="8"/>
+        <LStr text="Sexo"/>
+      </TableColumn>
+    </Table>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="txtnombre" fieldIdRef="0"/>
+    <Link colName="txt_edad" fieldIdRef="1"/>
+    <Link colName="dt_fecha" fieldIdRef="2"/>
+    <Link colName="sexo" fieldIdRef="3"/>
+    <Link colName="edit1" fieldIdRef="4"/>
+    <Link colName="edit3" fieldIdRef="5"/>
+    <Link colName="edit2" fieldIdRef="6"/>
+    <Link colName="edit4" fieldIdRef="7"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="txtnombre" fieldIdRef="0"/>
+    <Link colName="txt_edad" fieldIdRef="1"/>
+    <Link colName="dt_fecha" fieldIdRef="2"/>
+    <Link colName="sexo" fieldIdRef="3"/>
+  </RecordView>
+</Form>

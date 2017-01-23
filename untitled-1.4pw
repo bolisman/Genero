@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Workspace defaultApplication="18254354" version="2.4">
+  <Group label="Group_1">
+    <Application id="18254354" label="Application_1">
+      <File filePath="Error.4fd"/>
+      <File filePath="Mensaje.4fd"/>
+      <File filePath="Muestra.4fd"/>
+      <File filePath="PruebaLogin.4fd"/>
+      <File filePath="PruebaLogin.4gl"/>
+    </Application>
+  </Group>
+</Workspace>

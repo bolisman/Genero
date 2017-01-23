@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="Muestra.tmp" build="2.41.02-2081.37" text="Form" width="53" height="10">
+  <LStr text="Form"/>
+  <Grid name="grid1" width="53" height="10">
+    <Label name="label1" width="15" text="Nombre:" posY="2" posX="5" gridWidth="15">
+      <LStr text="Nombre:"/>
+    </Label>
+    <FormField name="formonly.lbl_nombre" colName="lbl_nombre" fieldId="0" sqlTabName="formonly" noEntry="1" tabIndex="1">
+      <Label width="31" posY="2" posX="21" gridWidth="31"/>
+    </FormField>
+    <Label name="label2" width="15" text="Edad:" posY="4" posX="5" gridWidth="15">
+      <LStr text="Edad:"/>
+    </Label>
+    <FormField name="formonly.lbl_edad" colName="lbl_edad" fieldId="1" sqlTabName="formonly" noEntry="1" tabIndex="2">
+      <Label width="31" posY="4" posX="21" gridWidth="31"/>
+    </FormField>
+    <Label name="label3" width="15" text="Sexo:" posY="6" posX="5" gridWidth="15">
+      <LStr text="Sexo:"/>
+    </Label>
+    <FormField name="formonly.lbl_sexo" colName="lbl_sexo" fieldId="2" sqlTabName="formonly" noEntry="1" tabIndex="3">
+      <Label width="31" posY="6" posX="21" gridWidth="31"/>
+    </FormField>
+    <Label name="label4" width="15" text="Fecha:" posY="8" posX="5" gridWidth="15">
+      <LStr text="Fecha:"/>
+    </Label>
+    <FormField name="formonly.lbl_fecha" colName="lbl_fecha" fieldId="3" sqlTabName="formonly" noEntry="1" tabIndex="4">
+      <Label width="31" posY="8" posX="21" gridWidth="31"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="lbl_nombre" fieldIdRef="0"/>
+    <Link colName="lbl_edad" fieldIdRef="1"/>
+    <Link colName="lbl_sexo" fieldIdRef="2"/>
+    <Link colName="lbl_fecha" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="lbl_nombre" fieldIdRef="0"/>
+    <Link colName="lbl_edad" fieldIdRef="1"/>
+    <Link colName="lbl_sexo" fieldIdRef="2"/>
+    <Link colName="lbl_fecha" fieldIdRef="3"/>
+  </RecordView>
+</Form>

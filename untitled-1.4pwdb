@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceDatabase fileContentsEncoding="CP1252" options="3" version="2.0">
+<File m="PruebaLogin" n="PruebaLogin.4gl" ts="20161220163159949">
+<Fct c="10" el="126" l="117" n="muestratabla(datos DYNAMIC ARRAY OF RECORD)" t="F"/>
+<Fct c="10" el="88" l="27" n="recibe(usua STRING,contra STRING)" t="F">
+<Call c="20" l="52" n="MuestraRow" p="" t="F"/>
+<Call c="18" l="56" n="muestra" p="" t="F"/>
+<Call c="18" l="65" n="muestratabla" p="" t="F"/>
+</Fct>
+<Fct c="10" el="115" l="90" n="muestra(nombre STRING,edad INTEGER,sexo BOOLEAN,fecha DATE)" t="F"/>
+<Fct c="1" el="25" l="9" n="main()" t="F">
+<Call c="6" l="18" n="recibe" p="" t="F"/>
+</Fct>
+<Fct c="10" el="153" l="128" n="MuestraRow(dato RECORD)" t="F"/>
+</File>
+</WorkspaceDatabase>

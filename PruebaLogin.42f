@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="PruebaLogin.tmp" build="2.41.02-2081.37" text="Form" width="42" height="7">
+  <LStr text="Form"/>
+  <Grid name="grid1" width="42" height="7">
+    <Label name="label3" width="25" text="Ingreso al Sistema" color="blue" justify="center" posY="1" posX="16" gridWidth="25">
+      <LStr text="Ingreso al Sistema"/>
+    </Label>
+    <Label name="label1" width="10" text="Usuario:" posY="3" posX="17" gridWidth="10">
+      <LStr text="Usuario:"/>
+    </Label>
+    <FormField name="formonly.txttexto1" colName="txttexto1" sqlType="VARCHAR" fieldId="0" sqlTabName="formonly" tabIndex="1">
+      <Edit width="13" posY="3" posX="28" gridWidth="13"/>
+    </FormField>
+    <Label name="label2" width="9" text="Contrasena:" posY="5" posX="17" gridWidth="9">
+      <LStr text="Contrasena:"/>
+    </Label>
+    <FormField name="formonly.txtpass" colName="txtpass" sqlType="VARCHAR" fieldId="1" sqlTabName="formonly" tabIndex="2">
+      <Edit width="13" shift="up" isPassword="1" posY="5" posX="28" gridWidth="13"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="txttexto1" fieldIdRef="0"/>
+    <Link colName="txtpass" fieldIdRef="1"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="txttexto1" fieldIdRef="0"/>
+    <Link colName="txtpass" fieldIdRef="1"/>
+  </RecordView>
+</Form>

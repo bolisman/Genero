@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="Error.tmp" build="2.41.02-2081.37" text="Form" width="63" height="16">
+  <LStr text="Form"/>
+  <Grid name="grid1" width="63" height="16">
+    <Label name="label1" width="50" height="4" text="El nombre de usuario o la contraseña son incorrectos" posY="5" posX="12" gridWidth="50" gridHeight="4">
+      <LStr text="El nombre de usuario o la contraseña son incorrectos"/>
+    </Label>
+  </Grid>
+</Form>

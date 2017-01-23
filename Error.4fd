@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm gstVersion="22800" name="ManagedForm" uid="{4e5c6c94-a83b-4cdc-98b9-682c2962a320}">
+  <AGSettings/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Record1" order="" uid="{58427a63-cefc-47e0-8bc1-30f860bd5e3a}" where=""/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Record2" order="" uid="{f516d728-fba4-4d86-a1f0-3228dc2def8c}" where=""/>
+  <Form gridHeight="25" gridWidth="85" name="Form" text="Form">
+    <Grid gridHeight="16" gridWidth="72" name="Grid1" posX="4" posY="1">
+      <Label gridHeight="4" gridWidth="50" name="Label1" posX="12" posY="5" text="El nombre de usuario o la contraseña son incorrectos"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBmADUAMQA2AGQANwAyADgALQBmAGIAYQA0AC0ANABkADgANgAtAGEAMQBmADAALQAzADIAMgA4AGQAYwAyAGQAZQBmADgAYwB9QCQAAAAAAABAJAAAAAAAAAAAAAAAAAAAAQAAAEwAewA1ADgANAAyADcAYQA2ADMALQBjAGUAZgBjAC0ANAA3AGUAMAAtADgAYgBjADEALQAzADAAZgA4ADYAMABiAGQANQBlADMAYQB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>
